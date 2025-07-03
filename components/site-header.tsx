@@ -1,6 +1,6 @@
-import { Separator } from "@/components/ui/separator"
-import { SidebarTrigger } from "@/components/ui/sidebar"
-import { ThemeToggle } from "@/components/theme-toggle"
+import { Separator } from "./ui/separator"
+import { SidebarTrigger } from "./ui/sidebar"
+import { ThemeToggle } from "./theme-toggle"
 
 export function SiteHeader() {
   return (

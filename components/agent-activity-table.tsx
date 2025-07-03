@@ -16,8 +16,8 @@ import {
   TableHead, 
   TableHeader, 
   TableRow 
-} from "@/components/ui/table"
-import { Button } from "@/components/ui/button"
+} from "./ui/table"
+import { Button } from "./ui/button"
 
 interface AgentActivity {
   id: number

@@ -15,22 +15,22 @@ import {
 } from "@tanstack/react-table"
 import { z } from "zod"
 
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
+import { Badge } from "./ui/badge"
+import { Button } from "./ui/button"
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card"
+} from "./ui/card"
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
-import { Input } from "@/components/ui/input"
+} from "./ui/dropdown-menu"
+import { Input } from "./ui/input"
 import {
   Table,
   TableBody,
@@ -38,8 +38,8 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table"
-import { cn } from "@/lib/utils"
+} from "./ui/table"
+import { cn } from "../lib/utils"
 
 import { IconChevronDown, IconDotsVertical, IconPlus } from "@tabler/icons-react"
 

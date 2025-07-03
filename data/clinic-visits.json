@@ -1,0 +1,32 @@
+[
+  {
+    "id": "visit-1",
+    "memberId": "1",
+    "clinicName": "Hope Clinic",
+    "date": "2025-05-20",
+    "service": "Malaria Test & Treatment",
+    "cost": 150,
+    "currency": "NLe",
+    "notes": "Patient responded well to treatment."
+  },
+  {
+    "id": "visit-2",
+    "memberId": "3",
+    "clinicName": "Mercy Hospital",
+    "date": "2025-04-10",
+    "service": "General Consultation",
+    "cost": 75,
+    "currency": "NLe",
+    "notes": "Routine check-up."
+  },
+  {
+    "id": "visit-3",
+    "memberId": "1",
+    "date": "2025-03-11",
+    "clinicName": "Wellness Center",
+    "service": "Annual Physical Exam",
+    "cost": 200,
+    "currency": "NLe",
+    "notes": "All vitals are normal."
+  }
+]

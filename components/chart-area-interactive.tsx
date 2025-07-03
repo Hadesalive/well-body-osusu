@@ -3,31 +3,31 @@
 import * as React from "react"
 import { Area, AreaChart, CartesianGrid, XAxis, YAxis } from "recharts"
 
-import { useIsMobile } from "@/hooks/use-mobile"
+import { useIsMobile } from "../hooks/use-mobile"
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card"
+} from "./ui/card"
 import {
   ChartConfig,
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
-} from "@/components/ui/chart"
+} from "./ui/chart"
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select"
+} from "./ui/select"
 import {
   ToggleGroup,
   ToggleGroupItem,
-} from "@/components/ui/toggle-group"
+} from "./ui/toggle-group"
 import { Button } from "./ui/button"
 import { IconChevronDown } from "@tabler/icons-react"
 
@@ -132,9 +132,7 @@ export function ChartAreaInteractive({ data }: ChartAreaInteractiveProps) {
                 tickLine={false}
                 axisLine={false}
               />
-              <ChartTooltip>
-                <ChartTooltipContent />
-              </ChartTooltip>
+              <ChartTooltip content={<ChartTooltipContent />} />
               <Area
                 type="monotone"
                 dataKey="members"

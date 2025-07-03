@@ -1,0 +1,38 @@
+[
+  {
+    "id": "txn-1",
+    "memberId": "1",
+    "date": "2025-06-15",
+    "description": "Monthly Contribution - June",
+    "amount": 50,
+    "currency": "NLe",
+    "status": "Completed"
+  },
+  {
+    "id": "txn-2",
+    "memberId": "1",
+    "date": "2025-05-15",
+    "description": "Monthly Contribution - May",
+    "amount": 50,
+    "currency": "NLe",
+    "status": "Completed"
+  },
+  {
+    "id": "txn-3",
+    "memberId": "2",
+    "date": "2025-06-10",
+    "description": "Monthly Contribution - June",
+    "amount": 25,
+    "currency": "NLe",
+    "status": "Completed"
+  },
+  {
+    "id": "txn-4",
+    "memberId": "3",
+    "date": "2025-06-18",
+    "description": "Solidarity Fund Payout",
+    "amount": -500,
+    "currency": "NLe",
+    "status": "Completed"
+  }
+]

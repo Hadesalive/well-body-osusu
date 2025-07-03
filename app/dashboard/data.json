@@ -1,0 +1,161 @@
+{
+  "summaryCards": [
+    {
+      "title": "Total Members",
+      "value": "1,890",
+      "trend": "+15.2%",
+      "trendDirection": "up",
+      "footerText": "Trending up this month",
+      "footerDescription": "New member registrations are strong"
+    },
+    {
+      "title": "Monthly Contributions",
+      "value": "SLL 45,231.89",
+      "trend": "+20.1%",
+      "trendDirection": "up",
+      "footerText": "Exceeding monthly targets",
+      "footerDescription": "Contributions from last 30 days"
+    },
+    {
+      "title": "Pending Solidarity Cases",
+      "value": "32",
+      "trend": "-5.8%",
+      "trendDirection": "down",
+      "footerText": "Trending down this week",
+      "footerDescription": "Faster case resolution times"
+    },
+    {
+      "title": "Active Clinics",
+      "value": "12",
+      "trend": "+2",
+      "trendDirection": "up",
+      "footerText": "Two new clinics onboarded",
+      "footerDescription": "Expanding our partner network"
+    }
+  ],
+  "memberGrowthChart": {
+    "timeRanges": {
+      "6m": [
+        {"month": "Jan", "members": 150},
+        {"month": "Feb", "members": 200},
+        {"month": "Mar", "members": 350},
+        {"month": "Apr", "members": 480},
+        {"month": "May", "members": 600},
+        {"month": "Jun", "members": 820}
+      ],
+      "3m": [
+        {"month": "Apr", "members": 480},
+        {"month": "May", "members": 600},
+        {"month": "Jun", "members": 820}
+      ],
+      "30d": [
+        {"day": "Week 1", "members": 180},
+        {"day": "Week 2", "members": 210},
+        {"day": "Week 3", "members": 200},
+        {"day": "Week 4", "members": 230}
+      ]
+    }
+  },
+  "recentRegistrations": [
+    {
+      "id": 1,
+      "name": "Fatmata Kamara",
+      "location": "Freetown",
+      "agent": "John Doe",
+      "status": "Active",
+      "registrationDate": "2025-06-28"
+    },
+    {
+      "id": 2,
+      "name": "Mohamed Bah",
+      "location": "Bo",
+      "agent": "Jane Smith",
+      "status": "Active",
+      "registrationDate": "2025-06-27"
+    },
+    {
+      "id": 3,
+      "name": "Aminata Sesay",
+      "location": "Kenema",
+      "agent": "Peter Jones",
+      "status": "Pending",
+      "registrationDate": "2025-06-27"
+    },
+    {
+      "id": 4,
+      "name": "Sorie Conteh",
+      "location": "Makeni",
+      "agent": "John Doe",
+      "status": "Active",
+      "registrationDate": "2025-06-26"
+    },
+    {
+      "id": 5,
+      "name": "Isatu Turay",
+      "location": "Freetown",
+      "agent": "Mary Williams",
+      "status": "Active",
+      "registrationDate": "2025-06-25"
+    }
+  ],
+  "agentActivity": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "location": "Freetown",
+      "registrations_this_month": 35,
+      "last_active": "2025-07-03T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "location": "Bo",
+      "registrations_this_month": 28,
+      "last_active": "2025-07-03T09:45:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Peter Jones",
+      "location": "Kenema",
+      "registrations_this_month": 22,
+      "last_active": "2025-07-02T15:30:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Mary Williams",
+      "location": "Freetown",
+      "registrations_this_month": 19,
+      "last_active": "2025-07-03T11:15:00Z"
+    }
+  ],
+  "auditLog": [
+    {
+      "id": 1,
+      "user": "admin@wellbodyosusu.com",
+      "action": "User Login",
+      "details": "Successful login from IP 192.168.1.1",
+      "timestamp": "2025-07-03T12:00:00Z"
+    },
+    {
+      "id": 2,
+      "user": "agent_jd@wellbodyosusu.com",
+      "action": "Member Registration",
+      "details": "Registered new member: Fatmata Kamara",
+      "timestamp": "2025-07-03T10:05:00Z"
+    },
+    {
+      "id": 3,
+      "user": "admin@wellbodyosusu.com",
+      "action": "Settings Update",
+      "details": "Updated contribution amount for Tier 2",
+      "timestamp": "2025-07-02T18:00:00Z"
+    },
+    {
+      "id": 4,
+      "user": "system",
+      "action": "Failed Payment",
+      "details": "Payment failed for member ID 12345",
+      "timestamp": "2025-07-02T14:00:00Z"
+    }
+  ]
+}
